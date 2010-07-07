@@ -1,0 +1,13 @@
+Name:                littleLisp
+Version:             0.0
+Synopsis:            A toy lisp in Haskell
+Description:         
+License:             GPL
+License-file:        LICENSE
+Author:              Phillip Dixon
+Maintainer:          Phillip Dixon <phil@dixon.gen.nz>
+Build-Depends:       base, parsec, mtl, containers
+Build-Type:          Simple
+Executable:          littleLisp
+Main-is:             Main.hs
+Hs-Source-Dirs:      src
